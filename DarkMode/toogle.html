@@ -1,0 +1,29 @@
+<!-- In the above example, we have used two buttons to switch between Dark and light modes. Now we will use the toggle() method in JavaScript to toggle between dark and light modes. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.dark-mode{
+    background-color: black;
+    color: bleck;
+}
+    </style>
+</head>
+<body >
+    <diV>
+        my name is sakshi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, numquam tempora fugiat sequi facilis esse itaque! Ex doloremque, odio maxime dignissimos ea illum? In obcaecati illo ipsa eos soluta repellat.
+    </diV>
+    <button id="btn" onClick="darkMode()"> dark mode</button>
+    <script>
+        function darkMode(){
+     let element=document.body
+     let btn=document.getElementById("btn")
+     element.classList.toggle("dark-mode")
+        }
+    </script>
+</body>
+</html>

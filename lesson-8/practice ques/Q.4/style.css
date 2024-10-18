@@ -1,0 +1,7 @@
+.bulb{
+    width:200px;
+    height:100px;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 500px;
+}

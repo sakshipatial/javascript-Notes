@@ -1,0 +1,43 @@
+
+
+.write-dis textarea{
+ border-style:none;
+ border-radius: 10px;
+ outline: none;
+ border-color: rgb(236, 233, 228);
+ font-size: large;
+}
+.dis{
+    width:45vw;
+    height:70vh;
+    border: 2px solid rgb(219, 198, 168);
+    border-radius: 10px;
+    background-color: blanchedalmond;
+  
+}
+.date input{
+    height:35px;
+    border-style:none;
+border-radius: 5px;;
+background-color: rgb(213, 244, 244);
+    outline: none;
+}
+.title input{
+    width:45vw;
+    height: 40px;;
+    border-style:none;
+    outline-style: none;
+    background-color: rgb(245, 250, 251);
+    font-weight: bold;
+    font-size: large;
+}
+
+button{
+  margin-top:20px;
+  margin-right: 10px;
+  width: 60px;
+  height:35px;
+  border:2px solid rgb(113, 211, 220);
+  border-radius: 5px;
+  background-color: rgb(182, 229, 233);
+}

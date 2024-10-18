@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dark-mode{
+            background-color: black;
+            color:white;
+        }
+        .light-mode{
+            background-color: white;
+            color:black
+        }
+       
+    </style>
+</head>
+<body >
+     
+        <h2>creating  a  darkmode</h2>
+        <span>
+        <img  width="200px"src="https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    </span>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus fugiat aliquam fugit facilis omnis magni iste quas dolores, rerum illo aperiam provident. Neque, et fuga delectus eius accusantium blanditiis.</p>
+        
+        <button id="btn" onClick="darkMode()">Dark mode off</button>
+        <button id="btn1" onClick="lightMode()">light mode on</button>
+     
+ <script>
+    function darkMode(){
+     let element=document.body
+     let btn=document.getElementById('btn')
+     let btn1=document.getElementById('btn1')
+     element.className="dark-mode";
+     btn.innerText="dark mode is  on"
+     btn1.innerText="light mode is off"
+
+
+    }
+    function lightMode(){
+        let element=document.body
+        let btn=document.getElementById('btn')
+        let btn1=document.getElementById('btn1')
+     element.className="light-mode";
+     btn.innerText="dark mode is off"  
+     btn1.innerText="light mode is  on "
+    }
+ </script>
+    
+</body>
+</html>

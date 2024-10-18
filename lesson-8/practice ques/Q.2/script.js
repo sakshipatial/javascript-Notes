@@ -1,0 +1,16 @@
+document.getElementById("google").addEventListener("click",function(){
+    window.location="https://www.google.com";
+    win.focus();
+});
+document.getElementsByClassName("facebook")[0].addEventListener("click",function(){
+    window.location="https://www.facebook.com";
+    win.focus();
+});
+document.getElementById("twitter").addEventListener("click",function(){
+    window.location="https://www.twitter.com";
+    win.focus();
+});
+document.getElementById("youtube").addEventListener("click",function(){
+    window.location="https://www.youtube.com";
+    win.focus();
+});  
